@@ -1,21 +1,23 @@
-/* ------------------------------------ */
-/* Basic JavaScript Projects Assignment */
-/* ------------------------------------ */
+/* ------------------------------------ 
+   Basic JavaScript Projects Assignment 
+   ------------------------------------ */
 
-window.alert('window alert'); /* Displaying an alert */
+window.alert('window alert'); // Displaying an alert */
 document.write('hello world <br><br>'); /* Displaying a text on screen */
 
 var Sent1 = 'This is the beginning of the string',
-	Sent2 =
-		'and this is the end of the string'; /* Defining two variables and assigning values to them */
+	Sent2 = 'and this is the end of the string'; // Defining two variables and assigning values to them
 
-document.write(
-	Sent1 + ' ' + Sent2 + '<br><br>'
-); /* Displaying variables by concatenating them */
+document.write(Sent1 + ' ' + Sent2 + '<br><br>'); // Displaying variables by concatenating them
 
-/* ---------------------------------------- */
-/* END Basic JavaScript Projects Assignment */
-/* -----------------------------------------*/
+// an javascript expression
+document.write('The result is : ' + 12 * 34);
+
+/* ------------------------------------ 
+   END Basic JavaScript Projects Assignment 
+   ------------------------------------ */
+
+document.write('<br><br>');
 
 var A = 'variable A for document.write';
 
