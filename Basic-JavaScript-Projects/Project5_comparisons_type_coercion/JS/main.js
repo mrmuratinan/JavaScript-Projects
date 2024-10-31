@@ -1,0 +1,30 @@
+document.write('0 / 0 ');
+document.write(0 / 0);
+document.write("<br>isNaN('007') ");
+document.write(isNaN('007'));
+document.write("<br>isNaN('hello') ");
+document.write(isNaN('hello'));
+document.write('<br>-2e310 ');
+document.write(-2e310);
+document.write('<br>6 > 3 ');
+document.write(6 > 3);
+console.log(2 + 5);
+console.log(2 > 5);
+document.write('<br>6 == 3 ');
+document.write(6 == 3);
+var A = 10;
+var B = '10';
+document.write("<br>A = 10;B = '10' A === B ");
+document.write(A === B);
+document.write('<br>5<2 && 2<5 ');
+document.write(5 < 2 && 2 < 5);
+document.write('<br>!(5<2 && 2<5) ');
+document.write(!(5 < 2 && 2 < 5));
+document.write('<br>5<2 || 2<5 ');
+document.write(5 < 2 || 2 < 5);
+function rideFunction() {
+	var Height, canRide;
+	Height = document.getElementById('Height').value;
+	canRide = Height < 52 ? 'You are too short' : 'You are tall enough';
+	document.getElementById('ride').innerHTML = canRide + ' to ride.';
+}
